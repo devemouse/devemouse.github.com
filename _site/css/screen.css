@@ -1,0 +1,17 @@
+div.title {
+   text-align:center;
+   vertical-align:center;
+   line-height:200%;
+   font-size:150%;
+   font-family:"Arial Black", Gadget, serif;
+   text-shadow:grey;
+}
+a.title:link {color:#EEEEEE;}    /* unvisited link */
+a.title:visited {color:#DDDDDD;} /* visited link */
+a.title:hover {color:#CCCCCC;}   /* mouse over link */
+a.title:active {color:#BBBBBB;}  /* selected link */
+
+body
+{
+   background-color:grey;
+}
