@@ -23,6 +23,11 @@ div.title {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
 }
+img.alignleft
+{
+   float:left;
+   size:50%;
+}
 
 a:link {color:#5F4679;}    /* unvisited link */
 a:visited {color:#364F89;} /* visited link */
