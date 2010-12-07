@@ -5,13 +5,8 @@ title: The Title of Your Web Site
     {% include header.html %}
 
     <br/>
-    <h1> proj </h1>
 
-    {% for page in site.pages %}
-      <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %} 
-
-    <h1> post </h1>
+    <h1> Posts </h1>
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %} 
