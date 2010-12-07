@@ -1,0 +1,18 @@
+<a href="http://dariuszsynowiec.files.wordpress.com/2010/04/konsole-icon.png"><img src="http://dariuszsynowiec.files.wordpress.com/2010/04/konsole-icon.png" alt="" title="Aria2c" width="128" height="128" class="alignleft size-full wp-image-36" /></a><p>If you ever searched for FlashGet like application for linux, you most likely either did not find any thing or you were unsatisfied with what you found.<br />
+But there is <a title="aria2" href="http://aria2.sourceforge.net/" target="_blank">aria2</a> app. It is ultimate download accelerator for linux (also avaliable in Cygwin).</p>
+
+<p>It has pure command line interface (but there is <a title="aria2 GUI front end" href="http://martinchern.de/wgetgui/aria2gui.html" target="_blank">GUI front end</a> for it). It is fast and lightweight.</p>
+<p>As it is command line tool you can easily create trivial bash script containing two lines: aria2 invocation and shutdown command. This way you can leave your PC for the night to download more stuff and the shutdown so save power.</p>
+<p>among many many command line arguments there are those most worth mentioning:</p><br>
+
+<p><strong>-s</strong>, <strong>--split</strong>=N</p>
+<p>Download a file using N connections. If more than N URIs are given, first N URIs are used and remaining URIs are used for backup. If less than N URIs are given, those URIs are used more than once so that N connections total are made simultaneously. Default: <em>5</em></p><br>
+
+<p><strong>-j</strong>, <strong>--max-concurrent-downloads</strong>=N</p>
+<p>Set maximum number of parallel downloads for every static (HTTP/FTP) URI, torrent and metalink. Default: <em>5</em></p><br>
+
+<p><strong>-i</strong>, <strong>--input-file</strong>=FILE</p>
+<p>Downloads URIs found in FILE. You can specify multiple URIs for a single entity: separate URIs on a single line using the TAB character. See <strong>Input File</strong> subsection for details.</p><br>
+
+<p>See also <a href="http://aria2.sourceforge.net/aria2c.1.html">http://aria2.sourceforge.net/aria2c.1.html</a></p>
+
