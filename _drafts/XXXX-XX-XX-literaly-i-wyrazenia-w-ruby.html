@@ -1,0 +1,21 @@
+---
+layout: post
+title: Literały i wyrażenia w Ruby.
+---
+<h1><code>__FILE__</code></h1>
+Evaluates to a string consisting of the name of the source file currently being executed. The strings (eval) and (irb) are returned when in an <code>eval</code> context and <abbr>IRB</abbr> session, respectively.
+<h1><code>__LINE__</code></h1>
+Evaluates to a <code>Fixnum</code> specifying the line number in the current <a href="http://ruby.runpaint.org/programs#file">__FILE__</a> being executed.
+<h1><code>__ENCODING__</code></h1>
+Evaluates to an <code>Encoding</code> object representing the current source encoding, i.e. that of <a href="http://ruby.runpaint.org/programs#file">__FILE__</a>.
+<h1><code>__END__</code></h1>
+If the interpreter encounters a line consisting solely of the token <code>__END__</code>, it ignores any lines that follow. However, they are made available to the program via a global, read-only <a href="http://ruby.runpaint.org/io"><code>IO</code></a> object named <code>DATA</code>.
+<pre><code><a href="http://ruby.runpaint.org/examples/__end__.rb">DATA.lines.map{|l| l.split.first}
+#=&gt; ["Lovers", "part", "also", "a", "--"]
+__END__
+Lovers for the most
+part are without hope: passion
+also is just
+a bridge, a means of connection
+-- Marina Ivanovna Tsvetaeva, "The Poem of the End"</a></code></pre>
+
