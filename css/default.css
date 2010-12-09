@@ -41,11 +41,12 @@ img.alignleft
    background: #E6E6D1;
    padding-left:10px;
    padding-right:10px;
+   border-bottom-right-radius: 10px;
 }
 
 .container .center {
    background: #D6D6C1;
-   width:520px;
+   width:540px;
    padding:10px;
 }
 
