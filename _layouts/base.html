@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
    </head>
    <body>
-      {% include header.html %}
       <div class="container">
+      {% include header.html %}
          <div class="left">
             left
          </div>
@@ -17,7 +17,11 @@
             {{ content }}
          </div>
          <div class="right">
-            right
+            <ul id="categories">
+               {% for category in site.categories %}
+               <li>{{ category }}</li>
+               {% endfor %}
+            </ul>
          </div>
       </div>
    </body>
