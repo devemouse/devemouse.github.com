@@ -3,7 +3,7 @@ layout: base
 ---
 <div class="entry-content">
    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-   <div id="date">published {{ page.date | date: "%Y-%m-%d" }}</div>
+   <div id="date">published {{ post.date | date: "%Y-%m-%d" }}</div>
    {{ content }}
    <br/>
    <a href="index.html">back</a>
