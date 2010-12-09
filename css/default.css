@@ -31,15 +31,15 @@ img.alignleft
 .container {
    margin-left:auto;
    margin-right:auto;
-   width:900px
+   width:900px;
 }
 
 .container .left,.right {
-   width:140px
+   width:10%;
 }
 
 .container .center {
-   width:520px;
+   width:80%;
    background: #D6D6C1;
 }
 
@@ -48,7 +48,8 @@ img.alignleft
    display:inline;
    float:left;
    margin-left:10px;
-   margin-right:10px
+   margin-right:10px;
+   padding:10px;
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
