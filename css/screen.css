@@ -29,8 +29,9 @@ img.alignleft
    size:50%;
 }
 
-.container {
+.main,.left,.right {
    display:inline;
+   float:left;
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
