@@ -29,7 +29,12 @@ img.alignleft
    size:50%;
 }
 
+.container {
+   display:inline;
+}
+
 a:link {color:#5F4679;}    /* unvisited link */
 a:visited {color:#364F89;} /* visited link */
 a:hover {color:#4F4F4F;}   /* mouse over link */
 a:active {color:#555522;}  /* selected link */
+
