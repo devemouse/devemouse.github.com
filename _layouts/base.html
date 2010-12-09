@@ -8,17 +8,14 @@
       <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
    </head>
    <body>
+      {% include header.html %}
       <div class="container">
-         {% include header.html %}
-
          <div class="left">
             left
          </div>
-
          <div id="main" class="center">
             {{ content }}
          </div>
-
          <div class="right">
             right
          </div>
