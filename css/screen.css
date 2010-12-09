@@ -43,7 +43,7 @@ img.alignleft
 }
 
 
-.main,.left,.right {
+.center,.left,.right {
    display:inline;
    float:left;
    margin-left:10px;
