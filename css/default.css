@@ -20,6 +20,9 @@ div.title {
    border: 1px solid #D6D6C1;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
+
+   min-width:800px;
+   width:65%
 }
 
 img.alignleft
@@ -36,13 +39,13 @@ img.alignleft
 }
 
 .container .left,.right {
-   min-width:100px;
+   min-width:80px;
    width:10%;
 }
 
 .container .center {
    background: #D6D6C1;
-   min-width:599px;
+   min-width:580px;
    width:44%
 }
 
