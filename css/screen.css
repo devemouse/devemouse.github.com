@@ -32,6 +32,8 @@ img.alignleft
 .main,.left,.right {
    display:inline;
    float:left;
+   margin-left:10px;
+   margin-right:10px
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
