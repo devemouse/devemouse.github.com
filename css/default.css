@@ -41,7 +41,15 @@ img.alignleft
    background: #E6E6D1;
    padding-left:10px;
    padding-right:10px;
+   height:500px;
+}
+
+.container .right {
    border-bottom-right-radius: 10px;
+}
+
+.container .left {
+   border-bottom-left-radius: 10px;
 }
 
 .container .center {
