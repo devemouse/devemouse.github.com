@@ -2,8 +2,7 @@ body {
    color:#555522;
    margin-left:auto;
    margin-right:auto;
-   min-width:700px;
-   width:60%;
+   width:900px;
 }
 
 div.title {
@@ -27,6 +26,12 @@ img.alignleft
 {
    float:left;
    size:50%;
+}
+
+#container {
+   margin-left:auto;
+   margin-right:auto;
+   width:900px
 }
 
 .main,.left,.right {
