@@ -1,11 +1,17 @@
 ---
 layout: base
 ---
-      <div class="entry-content">
-        <h2>{{ page.title }}</h2>
-        <!-- <span>Published: {{ page.date }}</span> -->
-        {{ content }}
-        <br/>
-        <a href="index.html">back</a>
-      </div>
+<div class="entry-content">
+   <h2>{{ page.title }}</h2>
+   <!-- <span>Published: {{ page.date }}</span> -->
+   {{ content }}
+   <br/>
+   <a href="index.html">back</a>
+   <div id="disqus">
+      <div id="disqus_thread"></div><script type="text/javascript"
+         src="http://disqus.com/forums/devemouseblog/embed.js"></script><noscript><a href="http://devemouseblog.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+   </div>
+
+
+</div>
 
