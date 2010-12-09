@@ -21,8 +21,7 @@ div.title {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
 
-   min-width:800px;
-   width:65%
+   width:800px;
 }
 
 img.alignleft
@@ -34,19 +33,16 @@ img.alignleft
 .container {
    margin-left:auto;
    margin-right:auto;
-   min-width:800px;
-   width:65%
+   width:800px;
 }
 
 .container .left,.right {
-   min-width:80px;
-   width:10%;
+   width:100px;
 }
 
 .container .center {
    background: #D6D6C1;
-   min-width:580px;
-   width:44%
+   width:480px;
 }
 
 
