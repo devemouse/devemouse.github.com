@@ -2,7 +2,8 @@ body {
    color:#555522;
    margin-left:auto;
    margin-right:auto;
-   width:900px;
+   min-width:700px;
+   width:60%
 }
 
 div.title {
@@ -22,6 +23,7 @@ div.title {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
 }
+
 img.alignleft
 {
    float:left;
@@ -36,11 +38,14 @@ img.alignleft
 
 .container .left,.right {
    width:10%;
+   min-width:100px;
+   width:15%;
 }
 
 .container .center {
-   width:80%;
    background: #D6D6C1;
+   min-width:499px;
+   width:69%
 }
 
 
