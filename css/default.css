@@ -37,9 +37,8 @@ img.alignleft
 }
 
 .container .left,.right {
-   width:10%;
    min-width:100px;
-   width:15%;
+   width:8%;
 }
 
 .container .center {
