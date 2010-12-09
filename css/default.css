@@ -39,6 +39,8 @@ img.alignleft
 .container .left,.right {
    width:100px;
    background: #E6E6D1;
+   padding-left:10px;
+   padding-right:10px;
 }
 
 .container .center {
@@ -51,8 +53,6 @@ img.alignleft
 .center,.left,.right {
    display:inline;
    float:left;
-   margin-left:10px;
-   margin-right:10px;
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
