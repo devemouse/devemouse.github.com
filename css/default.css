@@ -2,8 +2,6 @@ body {
    color:#555522;
    margin-left:auto;
    margin-right:auto;
-   min-width:800px;
-   width:65%
 }
 
 div.title {
@@ -33,7 +31,8 @@ img.alignleft
 .container {
    margin-left:auto;
    margin-right:auto;
-   width:900px;
+   min-width:800px;
+   width:65%
 }
 
 .container .left,.right {
@@ -43,8 +42,8 @@ img.alignleft
 
 .container .center {
    background: #D6D6C1;
-   min-width:600px;
-   width:45%
+   min-width:599px;
+   width:44%
 }
 
 
