@@ -42,7 +42,8 @@ img.alignleft
 
 .container .center {
    background: #D6D6C1;
-   width:480px;
+   width:520px;
+   padding:10px;
 }
 
 
@@ -51,7 +52,6 @@ img.alignleft
    float:left;
    margin-left:10px;
    margin-right:10px;
-   padding:10px;
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
