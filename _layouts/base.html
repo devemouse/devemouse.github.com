@@ -19,9 +19,9 @@
          <div class="right">
             <h2>Categories</h2>
             <ul id="categories">
-               {% site.categories.each do |category| %}
-               <li>{{ category }}</li>
-               {% end %}
+               {% for category in site.categories %}
+               <li><a href="#{{ category | first }}">{{ category | first }}</a></li>
+               {% endfor %}
             </ul>
          </div>
       </div>
