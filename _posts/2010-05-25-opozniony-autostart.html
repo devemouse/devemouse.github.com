@@ -39,19 +39,19 @@ tasks = [
 
   { 
     :name => 'start_Todolist', 
-    :command => "C:\Darek\\app\\todolist\\ToDoList.exe",
+    :command => "C:\\...\\ToDoList.exe",
     :time => 5    
   }, 
 
   { 
     :name => 'backup_jazdy', 
-    :command => "copy k:\\Shared\\synowiecd\\jazdy.xls c:\\Darek\\Doc\\dojazd /Y", 
+    :command => "copy k:\\...\\jazdy.xls c:\\...\\dojazd /Y", 
     :time => 60
   }, 
 
   { 
     :name => 'start_dropbox', 
-    :command => "C:\\Documents and Settings\\synowiecd\\Application Data\\Dropbox\\bin\\Dropbox.exe", 
+    :command => "C:\\...\\Dropbox.exe", 
     :time => 7*60
   }, 
 
@@ -68,7 +68,8 @@ tasks.each do |task|
       system("schtasks /delete /tn #{task[:name]} /f")
    end
 
-   system("schtasks /create /RU synowiecd /RP #{pass.decrypt(key)} /sc ONCE /tn #{task[:name]} /tr \"" +
+   system("schtasks /create /RU synowiecd /RP " +
+          "#{pass.decrypt(key)} /sc ONCE /tn #{task[:name]} /tr \"" +
           task[:command] +
           "\" /st " +
           (Time.now + (task[:time]*60)).strftime("%H:%M:%S") )
