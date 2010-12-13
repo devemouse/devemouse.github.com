@@ -5,6 +5,7 @@ body {
    background: #B6B6A1;
 }
 
+
 div.title {
    text-align:center;
    vertical-align:center;
@@ -57,6 +58,7 @@ img.thumb {
    padding-left:10px;
    padding-right:10px;
    height:300px;
+   display:block;
 }
 
 .container .right {
