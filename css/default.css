@@ -52,7 +52,7 @@ img.thumb {
 }
 
 .container .left,.right {
-   width:100px;
+   width:80px;
    background: #E6E6D1;
    padding-left:10px;
    padding-right:10px;
@@ -69,7 +69,7 @@ img.thumb {
 
 .container .center {
    background: #D6D6C1;
-   width:540px;
+   width:580px;
    padding:10px;
    border-bottom-right-radius: 10px;
    border-bottom-left-radius: 10px;
