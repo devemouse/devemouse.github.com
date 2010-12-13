@@ -1,3 +1,17 @@
+pre {
+  background-color: #ccc;
+  border: 2px solid #333;
+  padding: 10px;
+  line-height: 16px;
+  -x-system-font:none;
+  font-family:"Bitstream Vera Sans Mono", Monaco, "Courier New", monospace;
+  font-size-adjust:none;
+  font-stretch:normal;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
 pre .c { color: #999988; font-style: italic } /* Comment */
 pre .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 pre .k { font-weight: bold } /* Keyword */
