@@ -39,9 +39,18 @@ img.thumb {
    margin:5px
 }
 
+ul {
+   margin-left:0px;
+}
+
+li {
+   margin-left:0px;
+}
+
 li.post {
    border: 5px solid #AAAAAA;
    display:block;
+   margin-left:0px;
 }
 
 #date,li.post span{
