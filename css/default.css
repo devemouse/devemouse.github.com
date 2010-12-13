@@ -39,7 +39,12 @@ img.thumb {
    margin:5px
 }
 
-#date {
+li.post {
+   border: 5px solid #AAAAAA;
+   display:block;
+}
+
+#date,li.post span{
   text-align: center;
   color: #666;
   margin-bottom: 15px;
