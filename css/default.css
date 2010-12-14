@@ -69,11 +69,6 @@ li.post {
      background: #D6D6C1;
   }
 
-  .post_title time {
-     color: #666;
-     font-size: 10px;
-  }
-
   .posts_list time {
      text-align: center;
      color: #666;
