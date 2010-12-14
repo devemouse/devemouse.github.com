@@ -69,7 +69,7 @@ li.post {
      background: #D6D6C1;
   }
 
-  .posts_list time {
+  .posts_list,.post_title time {
      text-align: center;
      color: #666;
      margin-bottom: 15px;
@@ -119,6 +119,7 @@ li.post {
    border-bottom-left-radius: 10px;
 }
 
+h2.post_title
 
 .center,.left,.right {
    display:inline;
