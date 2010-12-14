@@ -52,6 +52,7 @@ li.post {
 
 .posts_list li {
    margin: 0.8em 0;
+   display:inline;
   }
 
   .posts_list li a:link, .posts_list li a:visited {
