@@ -3,11 +3,7 @@ layout: post
 title: Ślub
 category: devemouse
 ---
-<a title="Wedding Rings" href="http://www.freedigitalphotos.net/images/Weddings_g148-Ring_p10252.html" target="_blank">
-   <img class="thumb" title="Obrączki" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/wedding_rings.jpg" />
-</a>
-
-Long time not seen jak to mówią ;)
+<a title="Wedding Rings" href="http://www.freedigitalphotos.net/images/Weddings_g148-Ring_p10252.html" target="_blank"> <img class="thumb" title="Obrączki" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/wedding_rings.jpg" /></a> Long time not seen jak to mówią ;)
 
 Zgodnie z tytułem posta wziąłem ślub. Miało to miejsce 2 miesiące temu (dokładnie 2010-07-17). Moją małżonką jest Basia (zapraszam na Facebooka). Przyjęcie urządziliśmy na 70 osób dla rodziny i przyjaciół.
 
@@ -16,5 +12,5 @@ Wbrew temu co wszyscy opowiadają nie był to wielki stres. Wręcz przeciwnie, o
 Dzisiaj po dwóch miesiącach mieszkania z żoną z każdym dniem przekonuje się że warto było ;) I mam teraz dużo więcej czasu wolnego niż przed ślubem. Więcej czasu dla żony i więcej dla siebie. Przed ślubem nie mieszkaliśmy razem więc odzyskaliśmy te godziny, które spędzałem w podróży. Dzięki temu mogłem znów napisać coś tutaj ;)
 
 Na stronie o mnie znalazły się dwa nowe odnośniki:
-<a href="http://pl.linkedin.com/in/dariuszsynowiec">LinkedIn</a>
-<a href="http://github.com/darek129">github</a>
+"LinkedIn":http://pl.linkedin.com/in/dariuszsynowiec
+"github":http://github.com/darek129
