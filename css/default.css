@@ -59,9 +59,9 @@ li.post {
      text-decoration: none;
      color: #555;
      background: #E6E6D1;
-     border-radius: 3px;
-     -moz-border-radius: 3px;
-     -webkit-border-radius: 3px;
+     border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
   }
 
   .posts_list li a:hover, .posts_list li a:active {
