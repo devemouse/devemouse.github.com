@@ -18,8 +18,8 @@ title: devemouse blog
 <div class="posts_list">
    <ul>
       {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a><br/>
-      <span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
+      <li><a href="{{ post.url }}">{{ post.title }}<br/>
+      <span>{{ post.date | date: "%Y-%m-%d" }}</span></a></li>
       {% endfor %}
    </ul>
 </div>
