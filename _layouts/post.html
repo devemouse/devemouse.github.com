@@ -2,8 +2,11 @@
 layout: base
 ---
 <div class="entry-content">
-   <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-   <div id="date">published {{ page.date | date: "%Y-%m-%d" }}</div>
+   <div class="post_title">
+      <h2><a href="{{ page.url }}">{{ page.title }} 
+            <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>
+            {{ page.date | date: "%Y-%m-%d" }}</time></a></h2>
+   </div>
    {{ content }}
    <br/>
    <a href="/">Powrót</a>
