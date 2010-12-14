@@ -43,7 +43,7 @@ li.post {
    display:block;
 }
 
-  .post_title li a:link, .post_title li a:visited {
+  .post_title h2 a:link, .post_title h2 a:visited {
      padding: 0.4em 0.8em;
      text-decoration: none;
      color: #555;
