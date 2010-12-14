@@ -132,13 +132,12 @@ li.post {
 .nav-top div {
    width:80px;
    height:40px;
-   margin:5px;
    background: #D6D6C1;
    display:inline;
    float:left
-   padding-bottom:5px;
-   padding-left:5px;
-   padding-right:5px;
+   margin-bottom:5px;
+   margin-left:5px;
+   margin-right:5px;
 }
 
 
