@@ -2,7 +2,6 @@ body {
    color:#555522;
    margin-left:auto;
    margin-right:auto;
-   background: #B6B6A1;
 }
 
 
@@ -16,7 +15,7 @@ div.title {
    color:#555522;
 
    padding: 10px 10px 10px 10px;
-   background: #D6D6C1;
+   background: #E6E6D1;
    margin-top: -10px;
    margin-left: -10px;
    border: 1px solid #D6D6C1;
@@ -53,11 +52,76 @@ li.post {
    margin-left:0px;
 }
 
-#date,li.post span{
-  text-align: center;
-  color: #666;
-  margin-bottom: 15px;
-  font-size: 12px;
+.post_title {
+   text-align:center;
+   vertical-align:center;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+  .post_title h2 a:link, .post_title h2 a:visited {
+     padding: 0.4em 0.8em;
+     text-decoration: none;
+     color: #555;
+     background: #E6E6D1;
+     border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+  }
+
+.posts_list ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 100% !important;
+}
+
+.posts_list li {
+   margin: 0.8em 0;
+  }
+
+  .posts_list li a:link, .posts_list li a:visited {
+     padding: 0.4em 0.8em;
+     text-decoration: none;
+     color: #555;
+     background: #E6E6D1;
+     border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+  }
+
+  .posts_list li a:hover, .posts_list li a:active {
+     color: #222;
+     background: #D6D6C1;
+  }
+
+
+  .post_title time {
+     text-align: center;
+     color: #666;
+     margin-bottom: 15px;
+     font-size: 10px;
+  }
+
+  .posts_list time {
+     text-align: center;
+     color: #666;
+     margin-bottom: 15px;
+     font-size: 10px;
+  }
+
+
+  .link-list-extra li span {
+     font-size: 0.7em;
+     color: #888;
+  }
+
+
+  #date,li.post span{
+     text-align: center;
+     color: #666;
+     margin-bottom: 15px;
+     font-size: 12px;
 }
 
 .container {
@@ -66,9 +130,27 @@ li.post {
    width:800px;
 }
 
+.nav-top {
+   margin-left:auto;
+   margin-right:auto;
+   width:800px;
+   height:50px;
+   background: #f6f6e1;
+}
+
+.nav-top div {
+   width:60px;
+   height:40px;
+   margin:5px;
+   margin-top:0px;
+   background: #E6E6D1;
+   display:inline;
+   float:left
+}
+
+
 .container .left,.right {
    width:80px;
-   background: #E6E6D1;
    padding-left:10px;
    padding-right:10px;
    height:300px;
@@ -84,13 +166,11 @@ li.post {
 }
 
 .container .center {
-   background: #D6D6C1;
    width:580px;
    padding:10px;
    border-bottom-right-radius: 10px;
    border-bottom-left-radius: 10px;
 }
-
 
 .center,.left,.right {
    display:inline;
