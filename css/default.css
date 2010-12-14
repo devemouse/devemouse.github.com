@@ -129,7 +129,8 @@ li.post {
    background: #f6f6e1;
 }
 
-.nav-top div {
+.nav-top li {
+   list-style: none;
    width:60px;
    height:40px;
    margin:5px;
