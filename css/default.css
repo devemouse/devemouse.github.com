@@ -127,7 +127,9 @@ li.post {
    width:800px;
    height:50px;
    background: #f6f6e1;
+   padding:0px;
 }
+
 .nav-top div {
    width:80px;
    height:40px;
@@ -135,6 +137,9 @@ li.post {
    background: #D6D6C1;
    display:inline;
    float:left
+   padding-bottom:5px;
+   padding-left:5px;
+   padding-right:5px;
 }
 
 
