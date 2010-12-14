@@ -18,11 +18,7 @@ title: devemouse blog
 <div class="posts_list">
    <ul>
       {% for post in site.posts %}
-      <li><a href="{{ post.url }}"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date_to_string }}</time> » {{ post.title }}</a></li>
-      
-      <li><a href="{{ post.url }}">{{ post.title }}<br/>
-      <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date: "%Y-%m-%d"
-      }}</time></a></li>
+      <li><a href="{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date: "%Y-%m-%d" }}" pubdate>{{ post.date | date: "%Y-%m-%d" }}</time></a></li>
       {% endfor %}
    </ul>
 </div>
