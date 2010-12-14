@@ -44,11 +44,50 @@ li.post {
    display:block;
 }
 
-#date,li.post span{
-  text-align: center;
-  color: #666;
-  margin-bottom: 15px;
-  font-size: 12px;
+.posts_list ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 100% !important;
+}
+
+.posts_list li {
+   margin: 0.8em 0;
+  }
+
+  .posts_list li a:link, .posts_list li a:visited {
+     padding: 0.4em 0.8em;
+     text-decoration: none;
+     color: #555;
+     background: #ddd;
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+  }
+
+  .posts_list li a:hover, .posts_list li a:active {
+     color: #222;
+     background: #ccc;
+  }
+
+  .posts_list time {
+     font-size: 0.8em;
+     color: #666;
+     font-family: 'DejaVu Sans Mono', Consolas, Inconsolata, 'Lucida Console', monospace;
+  }
+
+
+  .link-list-extra li span {
+     font-size: 0.7em;
+     color: #888;
+  }
+
+
+  #date,li.post span{
+     text-align: center;
+     color: #666;
+     margin-bottom: 15px;
+     font-size: 12px;
 }
 
 .container {
