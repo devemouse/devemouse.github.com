@@ -70,9 +70,10 @@ li.post {
   }
 
   .posts_list time {
-     font-size: 0.8em;
+     text-align: center;
      color: #666;
-     font-family: 'DejaVu Sans Mono', Consolas, Inconsolata, 'Lucida Console', monospace;
+     margin-bottom: 15px;
+     font-size: 12px;
   }
 
 
