@@ -69,6 +69,14 @@ li.post {
      background: #D6D6C1;
   }
 
+
+  .posts_title time {
+     text-align: center;
+     color: #666;
+     margin-bottom: 15px;
+     font-size: 10px;
+  }
+
   .posts_list time {
      text-align: center;
      color: #666;
@@ -118,7 +126,6 @@ li.post {
    border-bottom-right-radius: 10px;
    border-bottom-left-radius: 10px;
 }
-
 
 .center,.left,.right {
    display:inline;
