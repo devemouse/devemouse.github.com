@@ -85,7 +85,7 @@ li.post {
    margin: 0.8em 0;
   }
 
-  .posts_list li a:link, .posts_list li a:visited {
+  .posts_list li a:link, .posts_list li a:visited, .post_title a:link, .post_title a:visited  {
      padding: 0.4em 0.8em;
      text-decoration: none;
      color: #555;
