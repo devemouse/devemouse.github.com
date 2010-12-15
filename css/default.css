@@ -152,7 +152,6 @@ li.post {
 .nav-left,.nav-right {
    height:30px;
    margin:0px;
-   margin-top:0px;
    padding-top:5px;
    background: #E6E6D1;
    display:inline;
@@ -181,6 +180,7 @@ li.post {
 }
 
 .nav-top ul {
+   margin:0px;
    display:inline;
    float:left;
    list-style-type:none;
@@ -190,6 +190,7 @@ li.post {
    background: url(https://assets1.github.com/images/modules/header/nav-rule.png) no-repeat 0px 50%;
    display:inline;
    margin: 0px;
+   margin:0px;
    padding: 0px 8px 0px 9px;
 }
 
