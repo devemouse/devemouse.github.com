@@ -24,6 +24,19 @@ div.title {
    -moz-border-radius: 10px;
 
    width:800px;
+
+   border-bottom-color: #F5F5F5;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-left-color: #E9E9E9;
+   border-left-style: solid;
+   border-left-width: 1px;
+   border-right-color: #E9E9E9;
+   border-right-style: solid;
+   border-right-width: 1px;
+
 }
 
 img.alignleft
@@ -163,6 +176,7 @@ li.post {
    float:right;
    text-align:center;
    vertical-align:bottom;
+   background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#FCFCFC), to(#E8E8E8));
 }
 
 .container .left,.right {
