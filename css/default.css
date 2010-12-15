@@ -9,6 +9,7 @@ body {
 div.header div.title {
    text-align:center;
    vertical-align:center;
+   font-family:"Lucida Console", Monaco, monospace;
    font-size:180%;
 }
 
@@ -16,29 +17,17 @@ div.header {
    text-align:center;
    vertical-align:center;
    line-height:200%;
-   font-family:"Lucida Console", Monaco, monospace;
    text-shadow:grey;
    color:#555522;
-
-   padding: 10px 10px 10px 10px;
+   padding: 10px 10px 0px 10px;
    background: #FCFCFC;
    margin-top: -10px;
-   margin-left: -10px;
 
    width:100%;
 
    border-bottom-color: #F5F5F5;
-   border-bottom-left-radius: 5px;
-   border-bottom-right-radius: 5px;
    border-bottom-style: solid;
    border-bottom-width: 1px;
-   border-left-color: #E9E9E9;
-   border-left-style: solid;
-   border-left-width: 1px;
-   border-right-color: #E9E9E9;
-   border-right-style: solid;
-   border-right-width: 1px;
-
 }
 
 img.alignleft
