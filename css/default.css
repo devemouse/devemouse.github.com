@@ -17,7 +17,7 @@ div.title {
 
    padding: 10px 10px 10px 10px;
    background: transparent;
-   background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#FCFCFC), to(#E8E8E8));
+   background-image: -webkit-gradient(linear, 0% 100%, 0% 100%, from(#FCFCFC), to(#E8E8E8));
    margin-top: -10px;
    margin-left: -10px;
    border: 1px solid #D6D6C1;
