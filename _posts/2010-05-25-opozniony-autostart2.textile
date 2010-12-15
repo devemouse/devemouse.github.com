@@ -12,6 +12,8 @@ Prezentuję skrypt, który tworzy zaplanowane zadania relatywne do daty/godziny 
 
 <!--more-->Skrypt napisałem w moim ulubionym Rubym
 
+<script src="https://gist.github.com/741790.js"> </script>
+
 <pre><code class="ruby">require 'highline/import'
 require 'ezcrypto'
 
