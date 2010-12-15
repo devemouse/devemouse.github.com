@@ -91,44 +91,49 @@ li.post {
 
 .posts_list li {
    margin: 0.8em 0;
-  }
+}
 
-  .posts_list li a:link, .posts_list li a:visited {
-     padding: 0.4em 0.8em;
-     text-decoration: none;
-     color: #555;
-     background: #F5F5F5;
-     border-radius: 4px;
-     -moz-border-radius: 4px;
-     -webkit-border-radius: 4px;
-  }
+.posts_list li a:link, .posts_list li a:visited {
+   padding: 0.4em 0.8em;
+   text-decoration: none;
+   color: #555;
+   background: #F5F5F5;
+   border-radius: 4px;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+}
 
-  .post_title time {
-     text-align: center;
-     color: #666;
-     margin-bottom: 15px;
-     font-size: 10px;
-  }
+.posts_list li a:hover, .posts_list li a:active {
+   color: #222;
+   background: #E8E8E8;
+}
 
-  .posts_list time {
-     text-align: center;
-     color: #666;
-     margin-bottom: 15px;
-     font-size: 10px;
-  }
+.post_title time {
+   text-align: center;
+   color: #666;
+   margin-bottom: 15px;
+   font-size: 10px;
+}
+
+.posts_list time {
+   text-align: center;
+   color: #666;
+   margin-bottom: 15px;
+   font-size: 10px;
+}
 
 
-  .link-list-extra li span {
-     font-size: 0.7em;
-     color: #888;
-  }
+.link-list-extra li span {
+   font-size: 0.7em;
+   color: #888;
+}
 
 
-  #date,li.post span{
-     text-align: center;
-     color: #666;
-     margin-bottom: 15px;
-     font-size: 12px;
+#date,li.post span{
+   text-align: center;
+   color: #666;
+   margin-bottom: 15px;
+   font-size: 12px;
 }
 
 .container {
