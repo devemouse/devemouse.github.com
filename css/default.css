@@ -95,7 +95,7 @@ li.post {
      -webkit-border-radius: 4px;
   }
 
-  .posts_list li a:hover, .posts_list li a:active {
+  .posts_list li a:hover, .posts_list li a:active, .post_title a:hover, .post_title a:active {
      color: #222;
      background: #E8E8E8;
   }
