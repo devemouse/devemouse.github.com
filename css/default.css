@@ -202,8 +202,6 @@ li.post {
 .nav-top li.nav-right {
    width:150px;
    height:30px;
-   margin:5px;
-   margin-top:0px;
    padding-top:5px;
    background: #E6E6D1;
    display:inline;
@@ -222,6 +220,12 @@ li.post {
    border-right-color: #E9E9E9;
    border-right-style: solid;
    border-right-width: 1px;
+
+   background: url(https://assets1.github.com/images/modules/header/nav-rule.png) no-repeat 0px 50%;
+   list-style-type: none;
+   margin: 0px;
+   padding: 5px 8px 0px 9px;
+
 }
 
 .container .left,.right {
