@@ -178,6 +178,11 @@ li.post {
 }
 
 .nav-right {
+   float:right;
+}
+
+.nav-top ul {
+   display:inline;
    float:left;
 }
 
