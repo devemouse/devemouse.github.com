@@ -68,7 +68,7 @@ li.post {
      padding: 0.4em 0.8em;
      text-decoration: none;
      color: #555;
-     background: #E6E6D1;
+     background: #FCFCFC;
      border-radius: 4px;
      -moz-border-radius: 4px;
      -webkit-border-radius: 4px;
@@ -89,7 +89,7 @@ li.post {
      padding: 0.4em 0.8em;
      text-decoration: none;
      color: #555;
-     background: #E6E6D1;
+     background: #FCFCFC;
      border-radius: 4px;
      -moz-border-radius: 4px;
      -webkit-border-radius: 4px;
@@ -97,7 +97,7 @@ li.post {
 
   .posts_list li a:hover, .posts_list li a:active {
      color: #222;
-     background: #D6D6C1;
+     background: #E8E8E8;
   }
 
 
