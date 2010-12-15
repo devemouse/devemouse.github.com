@@ -140,7 +140,11 @@ li.post {
    margin-right:auto;
    width:800px;
    height:25px;
-   background: #f6f6e1;
+}
+
+.nav-top a {
+   color: #4183C4;
+   text-decoration: none;
 }
 
 .nav-left,.nav-right {
