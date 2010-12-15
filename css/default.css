@@ -74,6 +74,11 @@ li.post {
      -webkit-border-radius: 4px;
   }
 
+  .post_title h2 a:hover, .post_title h2 a:active {
+     color: #222;
+     background: #E8E8E8;
+  }
+
 .posts_list ul {
    list-style: none;
    margin: 0;
@@ -85,7 +90,7 @@ li.post {
    margin: 0.8em 0;
   }
 
-  .posts_list li a:link, .posts_list li a:visited, .post_title a:link, .post_title a:visited  {
+  .posts_list li a:link, .posts_list li a:visited {
      padding: 0.4em 0.8em;
      text-decoration: none;
      color: #555;
@@ -95,7 +100,7 @@ li.post {
      -webkit-border-radius: 4px;
   }
 
-  .posts_list li a:hover, .posts_list li a:active, .post_title a:hover, .post_title a:active {
+  .posts_list li a:hover, .posts_list li a:active {
      color: #222;
      background: #E8E8E8;
   }
