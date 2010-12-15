@@ -148,6 +148,7 @@ li.post {
    height:50px;
    background: #f6f6e1;
 }
+
 .nav-left,.nav-right {
    width:150px;
    height:30px;
@@ -205,7 +206,7 @@ li.post {
    border-right-width: 1px;
 }
 
-.nav-top li.nav-left {
+.ffffnav-top li.nav-left {
    width:150px;
    height:30px;
    margin:5px;
@@ -230,7 +231,7 @@ li.post {
    border-right-width: 1px;
 }
 
-.nav-top li.nav-right {
+.ffffnav-top li.nav-right {
    width:150px;
    height:30px;
    padding-top:5px;
