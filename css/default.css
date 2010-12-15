@@ -149,6 +149,29 @@ li.post {
    background: #f6f6e1;
 }
 
+.nav-top div {
+   width:150px;
+   height:30px;
+   margin:5px;
+   margin-top:0px;
+   padding-top:5px;
+   display:inline;
+   text-align:center;
+   vertical-align:bottom;
+   background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#FCFCFC), to(#E8E8E8));
+   border-bottom-color: #F5F5F5;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-left-color: #E9E9E9;
+   border-left-style: solid;
+   border-left-width: 1px;
+   border-right-color: #E9E9E9;
+   border-right-style: solid;
+   border-right-width: 1px;
+}
+
 .nav-top .nav-left {
    width:150px;
    height:30px;
@@ -174,7 +197,7 @@ li.post {
    border-right-width: 1px;
 }
 
-.nav-top .nav-right {
+.nav-top .nav-left {
    width:150px;
    height:30px;
    margin:5px;
