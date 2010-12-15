@@ -184,7 +184,13 @@ li.post {
 .nav-top ul {
    display:inline;
    float:left;
+   list-style-type:none;
 }
+
+.nav-top li {
+   background: url(https://assets1.github.com/images/modules/header/nav-rule.png) no-repeat 0px 50%;
+}
+
 
 .fffnav-top li {
    width:150px;
