@@ -145,10 +145,10 @@ li.post {
 .nav-top a {
    color: #4183C4;
    text-decoration: none;
+   font-weight: bold;
 }
 
 .nav-left,.nav-right {
-   height:30px;
    margin:0px;
    padding-top:5px;
    background: #E6E6D1;
