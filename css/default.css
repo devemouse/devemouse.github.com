@@ -149,7 +149,7 @@ li.post {
    background: #f6f6e1;
 }
 
-.nav-top div {
+.nav-top li {
    width:150px;
    height:30px;
    margin:5px;
@@ -174,7 +174,7 @@ li.post {
    border-right-width: 1px;
 }
 
-.nav-top .nav-left {
+.nav-top li.nav-left {
    width:150px;
    height:30px;
    margin:5px;
@@ -199,7 +199,7 @@ li.post {
    border-right-width: 1px;
 }
 
-.nav-top .nav-right {
+.nav-top li.nav-right {
    width:150px;
    height:30px;
    margin:5px;
