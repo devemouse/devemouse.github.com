@@ -43,6 +43,10 @@ img.thumb {
    margin:5px
 }
 
+  .posts_list li a:hover, .posts_list li a:active {
+     text-decoration: underline;
+  }
+
 ul {
    margin-left:0px;
 }
@@ -100,12 +104,6 @@ li.post {
      -webkit-border-radius: 4px;
   }
 
-  .posts_list li a:hover, .posts_list li a:active {
-     color: #222;
-     background: #E8E8E8;
-  }
-
-
   .post_title time {
      text-align: center;
      color: #666;
@@ -152,6 +150,12 @@ li.post {
    text-decoration: none;
    font-weight: bold;
 }
+
+.nav-top a:hover, .nav-top a:active {
+   color: #222;
+   background: #E8E8E8;
+}
+
 
 .nav-left,.nav-right {
    margin:0px;
