@@ -16,8 +16,7 @@ div.title {
    color:#555522;
 
    padding: 10px 10px 10px 10px;
-   background: transparent;
-   background-image: -webkit-gradient(linear, 0% 100%, 0% 100%, from(#FCFCFC), to(#E8E8E8));
+   background: #FCFCFC;
    margin-top: -10px;
    margin-left: -10px;
    border: 1px solid #D6D6C1;
@@ -146,11 +145,11 @@ li.post {
    margin:5px;
    margin-top:0px;
    padding-top:5px;
-   background: #E6E6D1;
    display:inline;
    float:left;
    text-align:center;
    vertical-align:bottom;
+   background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#FCFCFC), to(#E8E8E8));
 }
 
 .nav-top .ext-link {
