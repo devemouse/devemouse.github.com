@@ -29,12 +29,6 @@ div.header div.title {
    font-size:180%;
 }
 
-img.alignleft
-{
-   float:left;
-   size:50%;
-}
-
 img.thumb {
    float:left;
    width:100px;
@@ -51,12 +45,6 @@ ul {
 }
 
 li {
-   margin-left:0px;
-}
-
-li.post {
-   border: 5px solid #AAAAAA;
-   display:block;
    margin-left:0px;
 }
 
@@ -120,20 +108,6 @@ li.post {
    color: #666;
    margin-bottom: 15px;
    font-size: 10px;
-}
-
-
-.link-list-extra li span {
-   font-size: 0.7em;
-   color: #888;
-}
-
-
-#date,li.post span{
-   text-align: center;
-   color: #666;
-   margin-bottom: 15px;
-   font-size: 12px;
 }
 
 .container {
@@ -210,22 +184,6 @@ li.post {
    padding: 0px 8px 0px 9px;
 }
 
-.container .left,.right {
-   width:130px;
-   padding-left:10px;
-   padding-right:10px;
-   height:300px;
-   display:block;
-}
-
-.container .right {
-   border-bottom-right-radius: 10px;
-}
-
-.container .left {
-   border-bottom-left-radius: 10px;
-}
-
 .container .center {
    width:630px;
    padding:10px;
@@ -233,7 +191,7 @@ li.post {
    border-bottom-left-radius: 10px;
 }
 
-.center,.left,.right {
+.center {
    display:inline;
    float:left;
 }
