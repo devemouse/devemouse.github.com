@@ -3,16 +3,20 @@ layout: base
 ---
 <div class="entry-content">
    <div class="post_title">
-      <h2><a href="{{ page.url }}">{{ page.title }} 
-            <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate>
-            {{ page.date | date: "%Y-%m-%d" }}</time></a></h2>
+      <h2><a href="{{ page.url }}">{{ page.title }} <time datetime="{{ page.date | date: "%Y-%m-%d" }}" pubdate> {{ page.date | date: "%Y-%m-%d" }}</time></a></h2>
    </div>
    {{ content }}
    <br/>
    <a href="/">Powrót</a>
    <hr/>
    <div id="disqus">
-      <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/devemouseblog/embed.js"></script><noscript><a href="http://devemouseblog.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+      <div id="disqus_thread">
+      </div>
+      <script type="text/javascript" src="http://disqus.com/forums/devemouseblog/embed.js"></script>
+      <noscript>
+         <a href="http://devemouseblog.disqus.com/?url=ref">View the discussion thread.</a>
+      </noscript>
+      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
    </div>
 </div>
 

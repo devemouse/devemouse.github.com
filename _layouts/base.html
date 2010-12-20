@@ -21,30 +21,25 @@
        </script>
     </head>
    <body>
-      <div class="container">
-         <div class="header">
-            <br/>
-            <div class="title">
-               <span class="mouse">&lt;:3 )~~ </span><a href="/" class="title"> devemouse </a>
-            </div>
-         </div>
+      <div class="header">
+         <div class="title"><span class="mouse">&lt;:3 )~~ </span><a href="/" class="title"> devemouse </a></div>
          <div class="nav-top">
-            <div id="about">
-               <a href="/about.html">o mnie</a>
+            <div class="nav-left">
+               <ul>
+                  <li><a href="/about.html">o mnie</a></li>
+                  <li><a href="/projects.html">projekty</a></li>
+               </ul>
             </div>
-            <div id="projects">
-               <a href="/projects.html">projekty</a>
-            </div>
-            <div id="linkedin" class="ext-link">
-               <a href="http://www.linkedin.com/">in</a>
-            </div>
-            <div id="goldenline" class="ext-link">
-               <a href="http://www.goldenline.pl/dariusz-synowiec2">GL</a>
-            </div>
-            <div id="github" class="ext-link">
-               <a href="https://github.com/devemouse">GH</a>
+            <div class="nav-right">
+               <ul>
+                  <li><a href="http://pl.linkedin.com/in/dariuszsynowiec">in</a></li>
+                  <li><a href="http://www.goldenline.pl/dariusz-synowiec2">GL</a></li>
+                  <li><a href="https://github.com/devemouse">GH</a></li>
+               </ul>
             </div>
          </div>
+      </div>
+      <div class="container">
          <div id="main" class="center">
             {{ content }}
          </div>

@@ -9,73 +9,9 @@ categories: [ruby, programowanie]
 
 Prezentuję skrypt, który tworzy zaplanowane zadania relatywne do daty/godziny uruchomienia skryptu:  <strong><a title="afterstart.rb" href="http://github.com/darek129/HOME/blob/master/.bin/afterstart.rb" target="_blank">afterstart.rb</a></strong>.
 
+Skrypt napisałem w moim ulubionym Rubym
 
-<!--more-->Skrypt napisałem w moim ulubionym Rubym
-
-<pre><code class="ruby">require 'highline/import'
-require 'ezcrypto'
-
-p "After Start"
-
-tasks = [ 
-
-  { 
-    :name => 'kill_dropbox',
-    :command => "taskkill /f /im Dropbox.exe",
-    :time => 20
-  }, 
-
-  { 
-    :name => 'kill_TSVNCache', 
-    :command => "taskkill /f /im TSVNCache.exe", :time => 5
-  }, 
-
-  { 
-    :name => 'start_Todolist', 
-    :command => "C:\\...\\ToDoList.exe",
-    :time => 5    
-  }, 
-
-  { 
-    :name => 'backup_jazdy', 
-    :command => "copy k:\\...\\jazdy.xls c:\\...\\dojazd /Y", 
-    :time => 60
-  }, 
-
-  { 
-    :name => 'start_dropbox', 
-    :command => "C:\\...\\Dropbox.exe", 
-    :time => 7*60
-  }, 
-
-]
-
-pass=EzCrypto::Key.generate
-
-key = pass.encrypt ask("Enter your password:  ") { |q| q.echo = "*" }
-
-current_tasks = %x[schtasks]
-
-tasks.each do |task|
-   if current_tasks =~ /#{task[:name]}/ then
-      system("schtasks /delete /tn #{task[:name]} /f")
-   end
-
-   system("schtasks /create /RU synowiecd /RP " +
-          "#{pass.decrypt(key)} /sc ONCE /tn #{task[:name]} /tr \"" +
-          task[:command] +
-          "\" /st " +
-          (Time.now + (task[:time]*60)).strftime("%H:%M:%S") )
-end
-pass = nil
-keu = nil
-
-current_tasks = %x[schtasks]
-
-puts current_tasks
-</code></pre>
-
-<script src="https://gist.github.com/741034.js"> </script>
+<script src="https://gist.github.com/741790.js"> </script>
 
 Pozdrawiam
 Darek.
