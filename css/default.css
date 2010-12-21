@@ -191,9 +191,10 @@ li {
    border-bottom-left-radius: 10px;
 }
 
-.center {
+.container .center {
    display:inline;
    float:left;
+   align:left;
 }
 
 a:link {color:#5F4679;}    /* unvisited link */
