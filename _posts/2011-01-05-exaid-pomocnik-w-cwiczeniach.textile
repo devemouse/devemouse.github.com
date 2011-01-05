@@ -11,24 +11,17 @@ categories: [programowanie, devemouse]
 - 4 przysiady.
 
 Aby trening przynosił efekty trzeba go jakoś monitorować. Ja m.in. liczę ilość powtórzeń powyższych
-serii. Pierwotnie robiłem to długopisem na kartce, po każdej serii kreseczka. Potem wszystko
-zliczałem i wpisywałem sobie do arkusza.
-Nie lubię manualnej pracy więc napisałem "prosty skrypt,":https://gist.github.com/764803 który robi 
-opisane czynności za mnie.
+serii. Pierwotnie robiłem to długopisem na kartce, po każdej serii kreseczka. Potem wszystko zliczałem i wpisywałem sobie do arkusza.
+Nie lubię manualnej pracy więc napisałem "prosty skrypt,":https://gist.github.com/764803 który robi opisane czynności za mnie.
 Po uruchomieniu wyświetla się tylko: 
 
 <pre>
 (0) Enter to repeat:
 </pre>
 
-W nawiasach wyświetla się ilość wykonanych powtórzeń. Naciskając enter ilość powtórzeń zwiększa się
-o 1. Podanie jakiejkolwiek liczby (dodatniej lub ujemnej) spowoduje zmodyfikowanie odpowiednio
-ilości już wykonanych powtórzeń. By zakończyć należy podać znak q. Dodatkowo po każdej modyfikacji
-wyświetla się wykres z ilością powtórzeń.
+W nawiasach wyświetla się ilość wykonanych powtórzeń. Naciskając enter ilość powtórzeń zwiększa się o 1. Podanie jakiejkolwiek liczby (dodatniej lub ujemnej) spowoduje zmodyfikowanie odpowiednio ilości już wykonanych powtórzeń. By zakończyć należy podać znak q. Dodatkowo po każdej modyfikacji wyświetla się wykres z ilością powtórzeń.
 
-Po zakończeniu ćwiczeń, ilość powtórzeń zapisywana jest w pliku ~/.exaidstat i zostaje wyświetlony
-wykres postępu ze wszystkich zapisanych treningów. Ustawienie zmiennej środowiskowej EXAIDSTAT
-pozwala zmienić lokalizacje tego pliku.
+Po zakończeniu ćwiczeń, ilość powtórzeń zapisywana jest w pliku ~/.exaidstat i zostaje wyświetlony wykres postępu ze wszystkich zapisanych treningów. Ustawienie zmiennej środowiskowej EXAIDSTAT pozwala zmienić lokalizacje tego pliku.  
 
 "Źródło dostepne na githubie":https://gist.github.com/764803
 
