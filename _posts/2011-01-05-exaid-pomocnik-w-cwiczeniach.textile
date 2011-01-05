@@ -5,23 +5,21 @@ categories: [programowanie, devemouse]
 ---
 <a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/ruby.png">
    <img class="thumb" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/ruby.png" />
-</a>Mój trening polega na częstym powtarzaniu krótkich serii pojedynczych ćwiczeń:
+</a>Mój trening polega na&nbsp;częstym powtarzaniu krótkich serii pojedynczych ćwiczeń:
 - 4 brzuszki,
 - 3 pompki,
 - 4 przysiady.
 
-Aby trening przynosił efekty trzeba go jakoś monitorować. Ja m.in. liczę ilość powtórzeń powyższych
-serii. Pierwotnie robiłem to długopisem na kartce, po każdej serii kreseczka. Potem wszystko zliczałem i wpisywałem sobie do arkusza.
-Nie lubię manualnej pracy więc napisałem "prosty skrypt,":https://gist.github.com/764803 który robi opisane czynności za mnie.
+Aby trening przynosił efekty trzeba go jakoś monitorować. Ja&nbsp;m.in.&nbsp;liczę ilość powtórzeń powyższych serii. Pierwotnie robiłem to długopisem na&nbsp;kartce, po&nbsp;każdej serii kreseczka. Potem wszystko zliczałem i&nbsp;wpisywałem sobie do&nbsp;arkusza.  Nie&nbsp;lubię manualnej pracy więc napisałem "prosty skrypt,":https://gist.github.com/764803 który robi opisane czynności za&nbsp;mnie.
 Po uruchomieniu wyświetla się tylko: 
 
 <pre>
 (0) Enter to repeat:
 </pre>
 
-W nawiasach wyświetla się ilość wykonanych powtórzeń. Naciskając enter ilość powtórzeń zwiększa się o 1. Podanie jakiejkolwiek liczby (dodatniej lub ujemnej) spowoduje zmodyfikowanie odpowiednio ilości już wykonanych powtórzeń. By zakończyć należy podać znak q. Dodatkowo po każdej modyfikacji wyświetla się wykres z ilością powtórzeń.
+W&nbsp;nawiasach wyświetla&nbsp;się ilość wykonanych powtórzeń. Naciskając enter ilość powtórzeń zwiększa&nbsp;się o&nbsp;1. Podanie jakiejkolwiek liczby (dodatniej lub ujemnej) spowoduje zmodyfikowanie odpowiednio ilości już wykonanych powtórzeń. By&nbsp;zakończyć należy podać znak q. Dodatkowo po&nbsp;każdej modyfikacji wyświetla się wykres z&nbsp;ilością powtórzeń.
 
-Po zakończeniu ćwiczeń, ilość powtórzeń zapisywana jest w pliku ~/.exaidstat i zostaje wyświetlony wykres postępu ze wszystkich zapisanych treningów. Ustawienie zmiennej środowiskowej EXAIDSTAT pozwala zmienić lokalizacje tego pliku.  
+Po zakończeniu ćwiczeń, ilość powtórzeń zapisywana jest w&nbsp;pliku ~/.exaidstat i&nbsp;zostaje wyświetlony wykres postępu ze&nbsp;wszystkich zapisanych treningów. Ustawienie zmiennej środowiskowej EXAIDSTAT pozwala zmienić lokalizacje tego pliku.  
 
 "Źródło dostepne na githubie":https://gist.github.com/764803
 
