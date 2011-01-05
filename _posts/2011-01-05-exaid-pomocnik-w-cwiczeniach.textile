@@ -1,0 +1,32 @@
+---
+layout: post
+title: Exaid - pomocnik w ćwiczeniach
+categories: [programowanie, devemouse]
+---
+<a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/ruby.png">
+   <img class="thumb" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/ruby.png" />
+</a>Mój trening polega na częstym powtarzaniu krótkich serii pojedynczych ćwiczeń:
+* 4 brzuszki,
+* 3 pompki,
+* 4 przysiady.
+Aby trening przynosił efekty trzeba go jakoś monitorować. Ja m.in. liczę ilość powtórzeń powyższych
+serii. Pierwotnie robiłem to długopisem na kartce, po każdej serii kreseczka. Potem wszystko
+zliczałem i wpisywałem sobie do arkusza.
+Nie lubię manualnej pracy więc napisałem prosty skrypt który robi opisane czynności za mnie.
+Po uruchomieniu wyświetla się tylko: 
+
+@(0) Enter to repeat: @
+
+W nawiasach wyświetla się ilość wykonanych powtórzeń. Naciskając enter ilość powtórzeń zwiększa się
+o 1. Podanie jakiejkolwiek liczby (dodatniej lub ujemnej) spowoduje zmodyfikowanie odpowiednio
+ilości już wykonanych powtórzeń. By zakończyć należy podać znak q. Dodatkowo po każdej modyfikacji
+wyświetla się wykres z ilością powtórzeń.
+
+Po zakończeniu ćwiczeń, ilość powtórzeń zapisywana jest w pliku ~/.exaidstat i zostaje wyświetlony
+wykres postępu ze wszystkich zapisanych treningów. Ustawienie zmiennej środowiskowej EXAIDSTAT
+pozwala zmienić lokalizacje tego pliku.
+
+"Źródło dostepne na githubie":https://gist.github.com/764803
+
+<script src="https://gist.github.com/764803.js"> </script>
+
