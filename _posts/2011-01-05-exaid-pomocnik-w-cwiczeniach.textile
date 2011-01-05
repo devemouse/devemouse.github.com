@@ -13,7 +13,8 @@ categories: [programowanie, devemouse]
 Aby trening przynosił efekty trzeba go jakoś monitorować. Ja m.in. liczę ilość powtórzeń powyższych
 serii. Pierwotnie robiłem to długopisem na kartce, po każdej serii kreseczka. Potem wszystko
 zliczałem i wpisywałem sobie do arkusza.
-Nie lubię manualnej pracy więc napisałem prosty skrypt który robi opisane czynności za mnie.
+Nie lubię manualnej pracy więc napisałem "prosty skrypt,":https://gist.github.com/764803 który robi 
+opisane czynności za mnie.
 Po uruchomieniu wyświetla się tylko: 
 
 <pre>
