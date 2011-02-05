@@ -1,0 +1,49 @@
+---
+layout: base
+title: Dariusz Synowiec - o mnie
+---
+<div class="post_title"> <h2><a href="/about.html">Dariusz Synowiec (devemouse)</a></h2> </div>
+<a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/DariuszSynowiec.jpg"> <img class="my_pic" title="Dariusz Synowiec" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/DariuszSynowiec.jpg"/> </a> Witam.
+
+Jestem inżynierem elektroniki, programistą i&nbsp;piszę w&nbsp;językach:
+* C - +3 lata
+* Ruby - hobby +2 lata
+* Visual Basic - ~1 rok
+* DXL (Doors Extension Language) - ~1 rok
+
+W 2007 roku skończyłem Elektronikę i&nbsp;Telekomunikację na wydziale Elektroniki&nbsp;Automatyki i&nbsp;Informatyki Politechniki Śląskiej uzyskując tytuł i&nbsp;dyplom inżyniera elektroniki.
+
+Po studiach pracowałem m.in. w "TurboCare":http://www.turbocare.com/ jako kontroler jakości. Zajmowałem się tam przeprowadzaniem testów elektrycznych produkowanych na terenie zakładu generatorów i&nbsp;transformatorów wysokich energii. W&nbsp;trakcie pracy w&nbsp;TurboCare odwiedziłem USA, gdzie podczas dwóch miesięcy uczestniczyłem w&nbsp;remoncie jednego z&nbsp;generatorów elektrowni niedaleko Nowego Jorku. Przeprowadzałem tam testy elektryczne remontowanej maszyny.
+
+W krótkim epizodzie w&nbsp;firmie "Reus":http://www.reus.pl/ do moich zadań należały wizyty u&nbsp;klientów w&nbsp;celu opracowywania wycen nowych instalacji.
+
+Prawdziwe doświadczenie jako inżynier elektroniki i&nbsp;programista zdobyłem w "TRW Automotive":http://trw.com/. Firma zajmuje się m.in. produkcją i&nbsp;rozwojem systemów bezpieczeństwa. Zajmowałem tam stanowisko inżyniera oprogramowania. Pisałem przede wszystkim w&nbsp;C oprogramowanie sterujące poduszkami powietrznymi w&nbsp;samochodach. Miałem do czynienia z&nbsp;procesorami Freescale PPC560 oraz Renesas H8SX. W&nbsp;firmie poznałem wiele narzędzi, technologii i&nbsp;standardów:
+* "VIM":http://www.vim.org/ - jedyny edytor którego programista potrzebuje,
+* "AUTOSAR":http://www.autosar.org/ - otwarta standaryzowana architektura oprogramowania wypracowana wspólnie przez wielu producentów przemysłu samochodowego.
+* "OSEK":http://www.osek-vdx.org/ - w&nbsp;skrócie system operacyjny dla systemów embedded,
+* "DOORS":http://www.ibm.com/software/awdtools/doors/ - Aplikacja do zarządzania wymaganiami,
+* "Enterprise Architect":http://www.sparxsystems.com.au/ - program do modelowania w&nbsp;UML, przy jego pomocy tworzyłem architekturę systemu i&nbsp;poszczególnych jego komponentów,
+* "Vector":http://www.vector.com/ tools (CANoe, CANdela i&nbsp;inne) narzędzia służące do diagnostyki CAN ("certyfikat":http://dl.dropbox.com/u/1022953/devemouse.github.com/files/canoe_certyfikat.PDF),
+* "Jira":http://www.atlassian.com/software/jira/ - System zarządzania zadaniami i&nbsp;błędami firmy Atlassian,
+* "Lauterbach":http://www.lauterbach.com/ development tools - Trace32 debugger.
+* "MISRA C":http://www.misra.org.uk/ - standard programowania w&nbsp;c dla automotive
+* "SCRUM":http://www.scrumalliance.org/ - Metoda zarządzania projektami z&nbsp;rodziny agile ("certyfikat":http://dl.dropbox.com/u/1022953/devemouse.github.com/files/scrum_certyfikat.PDF)
+* "git":http://git-scm.com// i "svn":http://subversion.tigris.org/ - systemy zarządzania wersją oprogramowania,
+* "CruiseControl":http://cruisecontrol.sourceforge.net/ - serwer ciągłej integracji,
+* "UML":http://www.uml.org/ - zunifikowany język modelowania 
+
+
+Na mojej stornie z&nbsp;projektami znajduje się kilka aplikacji pokazujących jak pracuję.
+Większość jest rozwijana na githubie.
+
+
+Zapraszam na inne strony z&nbsp;moim profilem:
+
+<a href="http://pl.linkedin.com/in/dariuszsynowiec">LinkedIn</a>
+
+<a href="http://www.goldenline.pl/dariusz-synowiec2">GoldenLine</a>
+
+<a href="http://github.com/devemouse">github</a>
+
+Email: <a href="http://scr.im/devemouse">d...@g...l.com</a>
+

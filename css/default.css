@@ -29,6 +29,15 @@ div.header div.title {
    font-size:180%;
 }
 
+img.my_pic {
+   float:right;
+   width:150px;
+   height:200px;
+   margin:5px;
+   padding:5px;
+   padding-right:15px;
+}
+
 img.thumb {
    float:left;
    width:100px;
