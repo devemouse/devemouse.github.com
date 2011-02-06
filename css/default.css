@@ -29,14 +29,43 @@ div.header div.title {
    font-size:180%;
 }
 
-img.my_pic {
+.pic_cv {
    float:right;
    width:150px;
-   height:200px;
-   margin:5px;
-   padding:5px;
-   padding-right:15px;
 }
+
+img.pic {
+   height:200px;
+   width:150px;
+   border:0px;
+}
+.pic {
+   border:0px;
+   padding:0px;
+   margin:0px;
+}
+
+.cv a:link {color:#4F3669;}    /* unvisited link */
+.cv a:visited {color:#364F89;} /* visited link */
+.cv a:hover {color:#4F4F4F;}   /* mouse over link */
+.cv a:active {color:#555522;}  /* selected link */
+
+.cv {
+   margin-left:auto;
+   margin-right:auto;
+   width:100%;
+   border:0px;
+   text-align:center;
+   margin-top:-5px;
+   padding-top:5px;
+   padding-bottom:4px;
+   background:#DDDDDD;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   -moz-border-bottom-left-radius: 5px;
+   -webkit-border-bottom-left-radius: 5px;
+}
+
 
 img.thumb {
    float:left;
