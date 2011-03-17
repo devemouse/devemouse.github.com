@@ -8,7 +8,7 @@ title: Dariusz Synowiec - o mnie
       <a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/DariuszSynowiec.jpg"> <img class="pic" title="Dariusz Synowiec" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/DariuszSynowiec.jpg"/> </a>
    </div>
    <div class="cv">
-      <a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/files/dariusz_synowiec_cv_ang.pdf">Download CV</a>
+      <a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/files/dariusz_synowiec_cv_ang.pdf">Pobierz CV</a>
    </div>
 </div>
 
