@@ -1,0 +1,11 @@
+---
+layout: post
+title: Projekt zaliczeniowy UDP-chat
+categories: [c, programowanie]
+published: true
+---
+<a href="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/wrench.png"> <img class="thumb" src="http://dl.dropbox.com/u/1022953/devemouse.github.com/gfx/wrench.png" /> </a>Na stronie z&nbsp;moimi projektami umieściłem nowy projekt: UDP Chat. Miałem okazję go&nbsp;"popełnić" podczas moich studiów jako&nbsp;projekt zaliczeniowy przedmiotu programowanie sieciowe.  Sam program nie zachwyca swoim wyglądem gdyż nie to było jego celem. Jest to czysto szkoleniowy program który nie był specjalnie rozwijany. Ma pokazać umiejętność zastosowania technologii UDP oraz użycie WinAPI oraz odrobiny wielowątkowości.
+
+Aplikacja napisana jest w WinAPI zatem do uruchamiania programu pod linuxem potrzebny jest co najmniej wine.  Protokołem transportowym zgodnie z nazwą jest UDP. Zaimplementowana jest dwukierunkowa komunikacja pomiędzy dwoma instancjami programu. Niezbędna jest znajomość adresu IP obu komputerów. Część nadawcza zrealizowana jest w procedurach obsługi komunikatów systemowych. Serwer czy też część odbiorcza zrealizowana jest w osobnym wątku.
+
+Detale techniczne znajdują się w "sprawozdaniu":https://github.com/devemouse/UDP-Chat/blob/master/doc/Sprawozdanie.pdf.
